@@ -3,7 +3,7 @@ tipo: spec
 feature: tutor-fase-1
 status: aprovada
 prd_refs: [P-001, P-002, P-003, P-004, P-005, P-006, P-007, P-008, P-009, P-010, P-011, P-012, P-013, P-015, INV-001, INV-002, INV-003, INV-004, INV-005, INV-006, INV-007, INV-008, INV-009, CA-001, CA-002, CA-003, CA-004, CA-005, CA-006, CA-007, CA-008]
-adrs: []
+adrs: [001, 002, 003, 004]
 criado: 2026-11-16
 entregue_em: null
 ---
@@ -85,7 +85,10 @@ Não se aplica; é a primeira versão. A fase 2 acrescenta código ao mesmo serv
 
 ## Decisões
 ### ADRs vinculados
-Nenhum ainda.
+- 001 — Chat self-hosted em vez de app pronto
+- 002 — Um tutor único em vez de dois modos
+- 003 — Dados só com fonte recuperada, com busca em sites aprovados
+- 004 — Desafios só de banco com gabarito oficial
 
 ### Decisões locais
 - Uma conversa por dia.
@@ -108,3 +111,4 @@ Nenhum ainda.
 | Data | Mudança | Seções alteradas | Origem |
 |---|---|---|---|
 | 2026-11-16 | Criação | todas | PRD v1 |
+| 2026-11-16 | Vínculo dos ADRs 001 a 004 | Decisões (ADRs vinculados) | ADR 001, 002, 003, 004 |
