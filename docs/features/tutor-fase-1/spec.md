@@ -33,6 +33,7 @@ O PRD pede um tutor que conduz a sessão diária (P-001), ajuda por escada sem e
 - Publicação por túnel com login — *novo*
 - Provedor de modelo por API: Não definido; sai do teste comparativo — *novo*
 - Base "Desafios": provas e soluções da OBMEP nível 1 — *novo*
+- Documento "Plano da semana" na base Desafios, com 2 desafios por dia, atualizado pela responsável aos domingos — *novo*
 - Base "Bíblia": texto da ARC e material da igreja fornecido pela responsável — *novo*
 - Busca na web com lista de sites aprovados — *novo*
 - `tutor/instrucoes.md`: instruções do tutor, versionadas — *novo*
@@ -42,11 +43,11 @@ O PRD pede um tutor que conduz a sessão diária (P-001), ajuda por escada sem e
 
 ### Fluxo
 1. A estudante abre o tutor e inicia a conversa do dia.
-2. O tutor apresenta 2 desafios da base, ela resolve no caderno e envia foto.
+2. O tutor apresenta os 2 desafios do dia, lidos do "Plano da semana" pela data, ela resolve no caderno e envia foto. O tutor não guarda memória entre conversas, por isso o plano é a fonte do que cabe a cada dia.
 3. O tutor segue a escada até ela chegar ao resultado ou ao exemplo parecido.
 4. Espaço livre: o tutor classifica o pedido e responde pela regra do tipo.
 5. Fecho: frase dela e ficha do dia escrita na própria conversa.
-6. Domingo: a responsável abre as conversas da semana, roda o roteiro e conversa com a estudante.
+6. Domingo: a responsável abre as conversas da semana, roda o roteiro, conversa com a estudante e atualiza o "Plano da semana".
 
 ### Contratos e interfaces
 **Instruções do tutor** (`tutor/instrucoes.md`), em blocos:
@@ -112,3 +113,4 @@ Não se aplica; é a primeira versão. A fase 2 acrescenta código ao mesmo serv
 |---|---|---|---|
 | 2026-11-16 | Criação | todas | PRD v1 |
 | 2026-11-16 | Vínculo dos ADRs 001 a 004 | Decisões (ADRs vinculados) | ADR 001, 002, 003, 004 |
+| 2026-11-16 | Inclusão do documento "Plano da semana" | Design (Componentes afetados, Fluxo) | Pedido direto; lacuna encontrada ao escrever as instruções (T-06) |
